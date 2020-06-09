@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Headless CMS comparator`,
@@ -16,12 +20,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: 'gatsby-source-contentful',
+      resolve: "gatsby-source-contentful",
       options: {
-          spaceId: `nnyhgu3ljybh`,
-          // Learn about environment variables: https://gatsby.dev/env-vars
-          accessToken: process.env.CONTENTFUL_DELIVERY_ACCESS_TOKEN,
-      }
+        spaceId: `nnyhgu3ljybh`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.CONTENTFUL_DELIVERY_ACCESS_TOKEN,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,

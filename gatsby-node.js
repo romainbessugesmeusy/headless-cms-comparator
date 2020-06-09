@@ -1,7 +1,31 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const { slash } = require(`gatsby-core-utils`)
+const path = require(`path`)
 
-// You can delete this file if you're not using it
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
+  return graphql(`
+    {
+      allContentfulVendor {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+    }
+  `).then(result => {
+    if (result.errors) {
+      throw result.errors
+    }
+    const vendorTemplate = path.resolve(`./src/templates/vendor.js`)
+    result.data.allContentfulVendor.edges.forEach(edge => {
+      createPage({
+        path: `/vendors/${edge.node.slug}`,
+        component: slash(vendorTemplate),
+        context: {
+          slug: edge.node.slug,
+        },
+      })
+    })
+  })
+}

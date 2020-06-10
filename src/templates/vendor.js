@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Img, { FluidObject } from "gatsby-image"
+import Img  from "gatsby-image"
 
 export const pageQuery = graphql`
   query VendorPage($slug: String!) {

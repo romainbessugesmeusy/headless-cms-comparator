@@ -18,6 +18,7 @@
     "gatsby-source-datocms": "^2.2.5",
     "gatsby-source-filesystem": "^2.3.8",
     "gatsby-source-ghost": "^4.0.5",
+    "gatsby-source-strapi": "^0.0.12",
     "gatsby-transformer-sharp": "^2.5.3",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",

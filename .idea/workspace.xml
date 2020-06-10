@@ -10,15 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="926262b6-d9ab-4ab7-81bf-33493876b55d" name="Default Changelist" comment="Init">
-      <change afterPath="$PROJECT_DIR$/src/templates/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.graphqlconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
+    <list default="true" id="926262b6-d9ab-4ab7-81bf-33493876b55d" name="Default Changelist" comment="Add vendors from Contentful">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <updated>1591686332204</updated>
       <workItem from="1591686334014" duration="2831000" />
       <workItem from="1591695921827" duration="610000" />
-      <workItem from="1591708659844" duration="5655000" />
+      <workItem from="1591708659844" duration="8144000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1591713517904</created>
@@ -99,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591713517904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add vendors from Contentful">
+      <created>1591735781614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591735781614</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Add vendors from Contentful" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add vendors from Contentful" />
   </component>
   <component name="WindowStateProjectService">
     <state x="744" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591732710276">
@@ -134,22 +140,22 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1187" y="682" width="446" height="404" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591696382169" />
-    <state width="2560" height="416" key="GridCell.Tab.0.bottom" timestamp="1591734550765">
+    <state width="2560" height="416" key="GridCell.Tab.0.bottom" timestamp="1591770398906">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2560" height="416" key="GridCell.Tab.0.bottom/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591734550765" />
-    <state width="2560" height="416" key="GridCell.Tab.0.center" timestamp="1591734550765">
+    <state width="2560" height="416" key="GridCell.Tab.0.bottom/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591770398906" />
+    <state width="2560" height="416" key="GridCell.Tab.0.center" timestamp="1591770398905">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2560" height="416" key="GridCell.Tab.0.center/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591734550765" />
-    <state width="2560" height="416" key="GridCell.Tab.0.left" timestamp="1591734550765">
+    <state width="2560" height="416" key="GridCell.Tab.0.center/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591770398905" />
+    <state width="2560" height="416" key="GridCell.Tab.0.left" timestamp="1591770398904">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2560" height="416" key="GridCell.Tab.0.left/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591734550765" />
-    <state width="2560" height="416" key="GridCell.Tab.0.right" timestamp="1591734550765">
+    <state width="2560" height="416" key="GridCell.Tab.0.left/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591770398904" />
+    <state width="2560" height="416" key="GridCell.Tab.0.right" timestamp="1591770398905">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2560" height="416" key="GridCell.Tab.0.right/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591734550765" />
+    <state width="2560" height="416" key="GridCell.Tab.0.right/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591770398905" />
     <state width="2560" height="510" key="GridCell.Tab.1.bottom" timestamp="1591732711815">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -198,9 +204,13 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2560" height="510" key="GridCell.Tab.3.right/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591732711819" />
-    <state x="880" y="471" key="Vcs.Push.Dialog.v2" timestamp="1591713522602">
+    <state x="880" y="471" key="Vcs.Push.Dialog.v2" timestamp="1591735782960">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="880" y="471" key="Vcs.Push.Dialog.v2/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591713522602" />
+    <state x="880" y="471" key="Vcs.Push.Dialog.v2/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591735782960" />
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1591770464264">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/296.1463.2048.1213@0.23.2560.1417" timestamp="1591770464264" />
   </component>
 </project>

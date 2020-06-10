@@ -28,6 +28,31 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-datocms`,
+      options: {
+        // You can find your read-only API token under the Settings > API tokens
+        // section of your administrative area:
+        apiToken: process.env.DATOCMS_READONLY_API_TOKEN,
+
+        // If you are working on development/staging environment, you might want to
+        // preview the latest version of records instead of the published one:
+        previewMode: false,
+
+        // Disable automatic reloading of content when some change occurs on DatoCMS:
+        disableLiveReload: false,
+      },
+    },
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: `http://localhost:1337`,
+        queryLimit: 1000, // Default to 100
+        contentTypes: [`vendor`],
+        //If using single types place them in this array.
+        singleTypes: [],
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,

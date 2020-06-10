@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendors",
+  "info": {
+    "name": "Vendor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "OpenSource": {
+      "type": "boolean"
+    },
+    "Hosted": {
+      "type": "boolean"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
